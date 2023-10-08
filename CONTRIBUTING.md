@@ -13,7 +13,7 @@ This document contains certain rules and guidelines that developers are expected
   :white_check_mark: **Examples of valid messages:**
 
   - Added serialisers.py for users app
-  - Updated utils/validator.js file
+  - Updated utils/validator.h file
   - Changed functionality of authentication process
 
   :x: **Examples of invalid messages:**
