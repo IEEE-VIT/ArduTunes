@@ -13,7 +13,7 @@ This document contains certain rules and guidelines that developers are expected
   :white_check_mark: **Examples of valid messages:**
 
   - Added serialisers.py for users app
-  - Updated utils/validator.h file
+  - Updated masterVolume.h file
   - Changed functionality of authentication process
 
   :x: **Examples of invalid messages:**
@@ -46,8 +46,8 @@ This document contains certain rules and guidelines that developers are expected
   :white_check_mark: **Examples of valid brach names:**
 
   - #8123 (issue number)
-  - OAuth (feature)
-  - questionsUtils (functionality of the questions)
+  - materVolume (feature)
+  - pitchArduTunes (functionality of the questions)
 
   :x: **Examples of invalid branch names**:
 
@@ -73,3 +73,4 @@ Developers should aim to write clean, maintainable, scalable and testable code. 
 
 - C++: [Cpp Core Guideline](https://github.com/isocpp/CppCoreGuidelines)
 - Wokwi: [Wokwi Guide](https://blog.wokwi.com/how-to-write-clean-arduino-code/)
+- Commit messages: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
