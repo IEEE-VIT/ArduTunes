@@ -71,5 +71,5 @@ This document contains certain rules and guidelines that developers are expected
 
 Developers should aim to write clean, maintainable, scalable and testable code. If your code is not testable, that means, it's time to refactor it. The following guidelines might come in handy for this:
 
-- C++: [Cpp Core Guideline]('https://github.com/isocpp/CppCoreGuidelines')
-- Wokwi: [Wokwi Guide]('https://blog.wokwi.com/how-to-write-clean-arduino-code/')
+- C++: [Cpp Core Guideline](https://github.com/isocpp/CppCoreGuidelines)
+- Wokwi: [Wokwi Guide](https://blog.wokwi.com/how-to-write-clean-arduino-code/)
