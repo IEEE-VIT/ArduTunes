@@ -13,7 +13,7 @@ The Arduino Musical Keyboard with Pitch Control is a fun project that allows you
 
 The project is implemented using the Wokwi Arduino Simulator, which provides a virtual environment for testing and running Arduino code without the need for physical hardware. This makes it an excellent choice for both beginners and experienced Arduino enthusiasts.
 
-Prerequisites
+# Prerequisites
 Before getting started with this project, you will need the following:
 
 Wokwi Account - Sign up for a free Wokwi account to access the online Arduino simulator.
