@@ -26,5 +26,5 @@ To get started:
 * Open a pull request to tons of issues we've curated for you :)
 
 
-Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features.
