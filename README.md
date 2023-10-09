@@ -24,4 +24,6 @@ To get started:
 * `git push origin my-amazing-feature`
 * Open a pull request to tons of issues we've curated for you :)
 
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features.
 To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/ArduTunes/blob/test/CONTRIBUTING.md) . New contributors are always welcome as that is the purpose of this repo.
