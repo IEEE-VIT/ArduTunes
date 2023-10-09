@@ -3,7 +3,7 @@
 Welcome to ArduTunes' repository!
 
 ## About
-IEEE-VIT presents ArduTunes' repository which contains the code and circuit for a audio synthesizer using an Arduino Mega with a feature of “Pitch Bend” implemented. The project is designed to be run on the Wokwi Arduino Simulator, which provides a virtual environment for testing and running Arduino code, making it easy to experiment and create music without the need for physical hardware. This makes it an excellent choice for both beginners and experienced Arduino enthusiasts.
+IEEE-VIT presents ArduTunes' repository which contains the code and circuit for an audio synthesizer using an Arduino Mega with the feature of “Pitch Bend” implemented. The project is designed to be run on the Wokwi Arduino Simulator, which provides a virtual environment for testing and running Arduino code, making it easy to experiment and create music without the need for physical hardware. This makes it an excellent choice for both beginners and experienced Arduino enthusiasts.
 
 
 You can check out the project [here](https://wokwi.com/projects/377941333701710849).
@@ -24,4 +24,4 @@ To get started:
 * `git push origin my-amazing-feature`
 * Open a pull request to tons of issues we've curated for you :)
 
-To start contributing, check out CONTRIBUTING.md . New contributors are always welcome as that is the purpose of this repo.
+To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/ArduTunes/blob/test/CONTRIBUTING.md) . New contributors are always welcome as that is the purpose of this repo.
