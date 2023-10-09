@@ -12,21 +12,21 @@ const int Notes[] = {
   NOTE_FS4, NOTE_G4, NOTE_GS4, NOTE_A4, NOTE_AS4, NOTE_B4
 }; 
 
-const int NumNotes = 12; //number of notes
+const int NumNotes = sizeof(buttonPins)/sizeof(buttonPins[0]); //number of notes
 
 int potValue; // Variable to store the potentiometer value
 
 void setup() {
-  for (int i = 0; i < NumNotes; i++) { //for i from 0 to 11
-    pinMode(buttonPins[i], INPUT_PULLUP); //INPUT_PULLUP configures the pinMode of the buttonPins as an input with a pull-up resistor enabled
+  for (int i = 0; i < NumNotes; i++) { //in the range 0 to (total number of notes-1)
+    pinMode(buttonPins[i], INPUT_PULLUP); //INPUT_PULLUP configures the pinMode of the buttonPins as an input with a pull-up resistor enabled (done to ensure a default high value rather than the conventional default low)
   }
   pinMode(SPEAKER_PIN, OUTPUT); //sets the pinMode of the SPEAKER_PIN as output
 }
 
 void loop() {
   int pitch = 0; 
-  for (int i = 0; i < NumNotes; i++) { //for i from 0 to 11
-    if (digitalRead(buttonPins[i]) == LOW) { // if the button is pressed
+  for (int i = 0; i < NumNotes; i++) { //in the range 0 to (total number of notes-1)
+    if (digitalRead(buttonPins[i]) == LOW) { // if the push button is pressed
       pitch = Notes[i]; //pitch takes the value of the corresponding index from Notes array
     }
   }
@@ -37,9 +37,9 @@ void loop() {
   }
 
   potValue = analogRead(POTENTIOMETER_PIN);  // Read the potentiometer value (0-1023)
-  for (int i = 0; i < NumNotes; i++) {
-    if (digitalRead(buttonPins[i]) == LOW) {
-      int pitch = Notes[i]; //for i from 0 to 11
+  for (int i = 0; i < NumNotes; i++) { //in the range 0 to (total number of notes-1)
+    if (digitalRead(buttonPins[i]) == LOW) { //if the push button is pressed
+      int pitch = Notes[i]; //pitch takes the value of the corresponding index from Notes array
       // For modifying the pitch based on the potentiometer value
       pitch += map(potValue, 0, 1023, -12, 12);  // Adjust the range for pitch modulation
       tone(SPEAKER_PIN, pitch);  //output in the speaker is the corresponding frequency value of the selected note and the adjusted pitch
