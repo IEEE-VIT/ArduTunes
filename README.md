@@ -10,7 +10,6 @@ You can check out the project [here](https://wokwi.com/projects/3779413337017108
 
 ## Tools and Technologies To Be Used
 * C++
-* Add on to whatever other technology you've used
 
 ## Getting Started
 To get started:
