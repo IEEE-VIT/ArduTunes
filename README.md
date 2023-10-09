@@ -10,7 +10,6 @@ You can check out the project [here](https://wokwi.com/projects/3779413337017108
 
 ## Tools and Technologies To Be Used
 * C++
-* Add on to whatever other technology you've used
 
 ## Getting Started
 To get started:
@@ -27,4 +26,5 @@ To get started:
 
 
 ## Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features.
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. We welcome improvements, bug fixes, and additional features.<br>
+To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/ArduTunes/blob/main/CONTRIBUTING.md) . New contributors are always welcome as that is the purpose of this repo.
